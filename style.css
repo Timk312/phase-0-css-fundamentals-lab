@@ -3,3 +3,39 @@ body {
   height: 100%;
   margin: 0;
 }
+header{
+display: grid;
+place-content: center;
+}
+
+#featured-property > figure{
+display: grid;
+place-content: center;
+}
+
+nav > a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: gray;
+}
+
+figcaption{
+  font-size: small;
+  display: grid;
+  place-content: center;
+}
+
+#featured-property > p{
+  max-width: 800px;
+  height: 100px;
+  text-align: center;
+  margin: auto;
+
+}
+
+#details > div{
+  float: left;
+  background-color: red;
+  text-align: center;
+  width: 25%;
+}
